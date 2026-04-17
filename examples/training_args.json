@@ -1,0 +1,15 @@
+{
+  "learning_rate": 1e-5,
+  "lr_scheduler_type": "cosine",
+  "lr_warmup_steps": 50,
+  "lr_min": 1e-7,
+  "batch_size": 3,
+  "max_steps": 2000,
+  "epochs":    20000,
+  "save_steps": 500,
+  "weight_decay": 0.000,
+  "adam_beta1": 0.9,
+  "adam_beta2": 0.96,
+  "adam_epsilon": 1e-8,
+  "log_level": "DEBUG"
+}
