@@ -32,10 +32,16 @@ WARNING: do NOT expect higher performance with bfloat16 or float16 on CPUs; toda
 That surprised me a lot, too.
 
 
-On Debian/Ubuntu:
+On Debian:
 ```bash
 sudo apt install build-essential libomp-dev libjpeg62-turbo-dev libx11-dev
 ```
+
+On Ubuntu:
+```bash
+sudo apt install build-essential libomp-dev libjpeg-dev libx11-dev
+```
+
 
 ### Windows (WSL)
 
