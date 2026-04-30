@@ -2,9 +2,21 @@
 
 A few-files, all-in-one C engine for Transformer AI models: inference, training, tokenizer creation, chat, and vision.
 
-Built from scratch over 18 months during my lunch breaks and weekend nights, TRiP exists because I just wanted to truly understand the transformer internals - from the matrix multiplications up.
+Built from scratch over 18 months (from March 2024 to August 2025) during my lunch breaks and weekend nights, TRiP exists just because I wanted to truly understand the transformer internals - from the matrix multiplications up.
 
-TRiP's purpose is purely educational — for me and for anyone willing to learn about transformers. It supports Gemma 1, Llama 2, PaliGemma, and GPT-2, with full inference and training. It does not aim to track the latest model releases, and is not trying to compete with llama.cpp.
+TRiP's purpose is purely educational, for me and for anyone willing to learn about transformers. It supports Gemma 1, Llama 2, PaliGemma, and GPT-2, with full inference and training. It does not aim to track the latest model releases, and is not trying to compete with llama.cpp.
+
+NOTE: since people are asking:
+here's what's AI-generated in the code:
+- the json parser (with some fix)
+- the safetensors checkpoint save function
+- the whole jpeg-X11 management functions (I had no interest in developing them)
+- the final file split (I initially wrote everything as main.c :D )
+- some revisions of the comments before I made the commit
+- this readme, for the most part :D
+
+That's all, I think; the rest, it's all hand-coded by me. And it would had no sense otherwise, since the whole point in doing this was: to achieve the closest to a full-stack understanding of the transformer internals.
+
 
 ## What TRiP supports
 
