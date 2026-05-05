@@ -1,4 +1,5 @@
 #define TRIP_MAIN
+#define TRIP_MAIN_VERSION 2026050501
 #include "trip.h"
 
 // ============================================================
@@ -169,7 +170,7 @@ void print_help(){
     printf("                            (default: SENTENCEPIECE)\n\n");
 
     printf("--- INFERENCE & SAMPLING OPTIONS ---\n");
-    printf("  --input_text \"<prompt>\"   Provide a text prompt directly on the command line.\n");
+    printf("  --input_text=\"<prompt>\"   Provide a text prompt directly on the command line.\n");
     printf("  --system_prompt \"<text>\"  Set a system prompt for chat mode (e.g., \"You are a helpful assistant.\").\n");
     printf("  --chat_scheme <scheme>    Specify a chat template. Schemes: LLAMA, TINY_LLAMA, GEMMA.\n");
     printf("  --chat_save_context <file> Saves the initial chat context to a file and exits.\n");
@@ -195,7 +196,7 @@ void print_help(){
     printf("  # Chat with a Gemma model\n");
     printf("  ./trip --chat --checkpoint_type SAFETENSORS --checkpoint gemma-2b-it/model.safetensors --tokenizer gemma-2b-it/tokenizer.json\n\n");
     printf("  # Run inference on a prompt\n");
-    printf("  ./trip --decode --input_text \"The capital of Italy is\"\n\n");
+    printf("  ./trip --decode --input_text=\"The capital of Italy is\"\n\n");
     printf("  # Run vision (PaliGemma only) with RAM optimizations switched ON; user will be asked for input image and prompt, since none of them is specified\n");
     printf("  ./trip --ram --vision --checkpoint model-00001-of-00003.safetensors\n\n");
     printf("  # Start training\n");

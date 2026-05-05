@@ -62,16 +62,23 @@
 //  a number). E.g. 2026-04-15, revision 01 → 2026041501
 // ============================================================
 
-#define	TRIP_VERSION_NUMBER_STRING	"V4.00"
+#define	TRIP_VERSION_NUMBER_STRING	"V4.01"
 
-#define TRIP_VERSION                    2026041501
-#define TRIP_VERSION_STRING             "2026-04-15.01"
+#define TRIP_VERSION_STRING             "2026-05-05.01"
 
+#define TRIP_MAIN_VERSION_EXPECTED      2026050501
 #define TRIP_MATH_VERSION_EXPECTED      2026041501
 #define TRIP_FORWARD_VERSION_EXPECTED   2026041501
 #define TRIP_BACKWARD_VERSION_EXPECTED  2026041501
 #define TRIP_MODEL_VERSION_EXPECTED     2026041501
 #define TRIP_UTILS_VERSION_EXPECTED     2026041501
+
+
+#ifdef TRIP_MAIN_VERSION
+  #if TRIP_MAIN_VERSION != TRIP_MAIN_VERSION_EXPECTED
+    #error "main.c version mismatch with trip.h"
+  #endif
+#endif
 
 #ifdef TRIP_MATH_VERSION
   #if TRIP_MATH_VERSION != TRIP_MATH_VERSION_EXPECTED
