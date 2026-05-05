@@ -105,7 +105,7 @@ Download a Gemma-2B-IT model from HuggingFace (safetensors format), then:
 
 ```bash
 ./trip --decode \
-    --input_text "The capital of Italy is" \
+    --input_text="The capital of Italy is" \
     --checkpoint gemma-2b-it/model.safetensors \
     --tokenizer gemma-2b-it/tokenizer.json
 ```
@@ -134,7 +134,7 @@ Or from a text file:
 ./trip --vision photo.jpg \
     --checkpoint paligemma/model.safetensors \
     --tokenizer paligemma/tokenizer.json \
-    --input_text "Describe this image"
+    --input_text="Describe this image"
 ```
 
 ### Build a tokenizer vocabulary from scratch
@@ -178,7 +178,7 @@ USAGE:
 
 | Flag | Default | Description |
 |------|---------|-------------|
-| `--input_text "<prompt>"` | — | Provide prompt text directly on the command line |
+| `--input_text="<prompt>"` | — | Provide prompt text directly on the command line |
 | `--system_prompt "<text>"` | — | System prompt for chat mode |
 | `--chat_scheme <scheme>` | (none) | Chat template: `LLAMA`, `TINY_LLAMA`, `GEMMA` |
 | `--chat_save_context <file>` | — | Pre-process and save chat context for faster startup |
