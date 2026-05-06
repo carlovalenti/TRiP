@@ -195,6 +195,8 @@ USAGE:
 | `--train_config <path>` | `training_args.json` | Path to training configuration JSON |
 | `--train_data <path>` | `training_data.txt` | Path to training data (plain text) |
 
+In "examples/", you can find an example for training_args.json, and a sample file to fine-tune GEMMA and TinyLlama using their chat template. Take care: models are VERY sensitive to correct use of their chat template when you fine-tune them.
+
 ## File map
 
 TRiP is organized into 7 files. Open `trip.h` for the complete map.
