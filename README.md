@@ -1,21 +1,22 @@
 # TRiP — TRansformer in Progress
 
-A few-files, all-in-one C engine for Transformer AI models: inference, training, tokenizer creation, chat, and vision.
+A few-file, all-in-one C engine for Transformer AI models: inference, training, tokenizer creation, chat, and vision.
+Built from scratch over 18 months (March 2024 to August 2025) during my lunch breaks and weekend nights, TRiP exists just because I wanted to truly understand the transformer internals, from the matrix multiplications up. About 15000 lines, structured to be read.
+It supports Gemma 1, Llama 2, PaliGemma, and GPT-2, with full inference and training. TRiP's purpose is purely educational - for me, and for anyone willing to learn about transformers. It does not aim to track the latest model releases, and is not trying to compete with llama.cpp.
 
-Built from scratch over 18 months (from March 2024 to August 2025) during my lunch breaks and weekend nights, TRiP exists just because I wanted to truly understand the transformer internals - from the matrix multiplications up.
+TRiP also helped produce the analysis behind my paper "Confidently Wrong: Failure of Mixture of Inputs in Low-Entropy Regimes" (DOI: 10.5281/zenodo.20822173).
 
-TRiP's purpose is purely educational, for me and for anyone willing to learn about transformers. It supports Gemma 1, Llama 2, PaliGemma, and GPT-2, with full inference and training. It does not aim to track the latest model releases, and is not trying to compete with llama.cpp.
+In the spirit of full transparency, here's the small portion that is AI-generated (everything else is hand-coded):
 
-NOTE: since people are asking:
-here's what's AI-generated in the code:
-- the json parser (with some fix)
+- the json parser (with some fixes)
 - the safetensors checkpoint save function
 - the whole jpeg-X11 management functions (I had no interest in developing them)
-- the final file split (I initially wrote everything as main.c :D )
-- some revisions of the comments before I made the commit
+- the final file split (I initially wrote everything as main.c :D)
+- some revisions of the comments before committing
 - this readme, for the most part :D
 
-That's all, I think; the rest, it's all hand-coded by me. And it would had no sense otherwise, since the whole point in doing this was: to achieve the closest to a full-stack understanding of the transformer internals.
+That's all, I think. The rest is hand-coded by me - and it would have made no sense otherwise, since the whole point of doing this was to get as close as possible to a full-stack understanding of the transformer internals.
+
 
 ## How to contact me
 
