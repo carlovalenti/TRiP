@@ -17,6 +17,10 @@ here's what's AI-generated in the code:
 
 That's all, I think; the rest, it's all hand-coded by me. And it would had no sense otherwise, since the whole point in doing this was: to achieve the closest to a full-stack understanding of the transformer internals.
 
+## How to contact me
+
+carlo.valenti.ai@gmail.com
+
 
 ## What TRiP supports
 
