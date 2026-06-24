@@ -8,7 +8,7 @@ It supports Gemma 1, Llama 2, PaliGemma, and GPT-2, with full inference and trai
 TRiP also helped produce the analysis behind my paper:
 
 "Confidently Wrong: Failure of Mixture of Inputs in Low-Entropy Regimes" (DOI: 10.5281/zenodo.20822173)
-https://zenodo.org/records/20822174
+https://zenodo.org/records/20822173
 
 
 In the spirit of full transparency, here's the small portion that is AI-generated (everything else is hand-coded):
