@@ -5,7 +5,11 @@ A few-file, all-in-one C engine for Transformer AI models: inference, training, 
 Built from scratch over 18 months (March 2024 to August 2025) during my lunch breaks and weekend nights, TRiP exists just because I wanted to truly understand the transformer internals, from the matrix multiplications up. About 15000 lines, structured to be read.
 It supports Gemma 1, Llama 2, PaliGemma, and GPT-2, with full inference and training. TRiP's purpose is purely educational - for me, and for anyone willing to learn about transformers. It does not aim to track the latest model releases, and is not trying to compete with llama.cpp.
 
-TRiP also helped produce the analysis behind my paper "Confidently Wrong: Failure of Mixture of Inputs in Low-Entropy Regimes" (DOI: 10.5281/zenodo.20822173).
+TRiP also helped produce the analysis behind my paper:
+
+"Confidently Wrong: Failure of Mixture of Inputs in Low-Entropy Regimes" (DOI: 10.5281/zenodo.20822173)
+https://zenodo.org/records/20822174
+
 
 In the spirit of full transparency, here's the small portion that is AI-generated (everything else is hand-coded):
 
