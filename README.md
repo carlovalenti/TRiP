@@ -1,6 +1,7 @@
 # TRiP — TRansformer in Progress
 
 A few-file, all-in-one C engine for Transformer AI models: inference, training, tokenizer creation, chat, and vision.
+
 Built from scratch over 18 months (March 2024 to August 2025) during my lunch breaks and weekend nights, TRiP exists just because I wanted to truly understand the transformer internals, from the matrix multiplications up. About 15000 lines, structured to be read.
 It supports Gemma 1, Llama 2, PaliGemma, and GPT-2, with full inference and training. TRiP's purpose is purely educational - for me, and for anyone willing to learn about transformers. It does not aim to track the latest model releases, and is not trying to compete with llama.cpp.
 
