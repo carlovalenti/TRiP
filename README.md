@@ -23,9 +23,18 @@ In the spirit of full transparency, here's the small portion that is AI-generate
 That's all, I think. The rest is hand-coded by me - and it would have made no sense otherwise, since the whole point of doing this was to get as close as possible to a full-stack understanding of the transformer internals.
 
 
+## The book
+
+While coding TRiP, I realized that I could share some reflections about the nature of AI. So I wrote a short non-tech book about it. Part memoir (my two kids are the real main characters), part a gentle, genuinely funny intro to how transformers actually work. No math degree required. Warning: it's not about C, not about backprop; it's about fundamental questions... with some humour ;D
+
+
+**My TRiP through AI** — on Amazon: https://amzn.eu/d/00O67UPS
+
+
+
 ## How to contact me
 
-carlo.valenti.ai@gmail.com
+carlovalenti.ai@gmail.com
 
 
 ## What TRiP supports
