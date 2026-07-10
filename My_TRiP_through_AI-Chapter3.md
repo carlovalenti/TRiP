@@ -3,6 +3,7 @@
 *An excerpt from "My TRiP through AI" by Carlo Valenti — Chapter 3*
 
 > TRiP is my 15,000-line transformer engine in C. This is the chapter where it gets built.
+> 
 > REPO of TRiP engine: https://github.com/carlovalenti/TRiP/
 
 ---
