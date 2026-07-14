@@ -30,6 +30,7 @@ While coding TRiP, I realized that I could share some reflections about the natu
 
 **My TRiP through AI** — on Amazon: https://amzn.eu/d/00O67UPS
 
+**excerpt (chapter 3)**: https://github.com/carlovalenti/TRiP/blob/main/My_TRiP_through_AI-Chapter3.md
 
 
 ## How to contact me
