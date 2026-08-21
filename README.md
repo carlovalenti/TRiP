@@ -24,7 +24,9 @@ While coding TRiP, I realized that I could share some reflections about the natu
 
 
 **My TRiP through AI** — on Amazon.com: https://www.amazon.com/My-TRiP-through-AI-Deep-learnings-ebook/dp/B0H7SRC166/
+
 **My TRiP through AI** — on Amazon EU: https://amzn.eu/d/00O67UPS
+
 **A spasso con TRiP (Italian translation)**: https://www.amazon.it/spasso-TRiP-viaggio-nella-facendo-ebook/dp/B0H86LGTTZ/
 
 
